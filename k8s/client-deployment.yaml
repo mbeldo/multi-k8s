@@ -15,5 +15,6 @@ spec:
       containers:
         - name: client
           image: stephengrider/multi-client
+          imagePullPolicy: always
           ports:
             - containerPort: 3000

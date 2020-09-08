@@ -15,6 +15,7 @@ spec:
       containers:
         - name: server
           image: mbeldo/multi-server
+          imagePullPolicy: always
           ports:
             - containerPort: 5000
           env:
